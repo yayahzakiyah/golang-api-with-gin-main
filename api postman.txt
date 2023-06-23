@@ -1,0 +1,5 @@
+Query: bedakan pathnya dengan Get biasa
+terus isi key dan value
+
+Param: tambahkan /:id
+isi valuenya

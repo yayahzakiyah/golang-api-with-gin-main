@@ -1,0 +1,38 @@
+HTTP
+Beda http dan https
+http: jaringan ...
+https: sama namun sudah diamankan
+
+Port: mekanisme sebuah komputer untuk menjalankan 
+Defaul port: HTTP -> 80 dan HTTPS -> 443
+
+NginX:
+
+Liat status code: klik kanan - inspect - network
+
+API (Application Programming Interface)-> melakukan proses lewat internet agar bisa 
+diakes di luar terminal sehingga ada protokol. agar bisa diakses orang banyak
+
+beda form.JSON
+gin.Default() -> menampilkan logger
+
+Middleware -> jembatan, verifikasi setelah login, sebuah layar untuk pengecekan
+tracking user activity
+validasi token
+monitoring -> seberapa banyak API yang success
+
+header: informasi tambahan saat request, data2 pendukung (metadata)
+token: memvalidasi sudah login -> dikirimkan oleh respon
+body: data (informasi yang kita provide)
+token bisa ditaruh di body dan sebaliknya namun ada aturan mainnya
+
+setelah server memberikan respond, maka koneksi terputus antara client dan server
+
+harus melewati 1 middleware
+login - dapet token (punya expired, tergantung keputusan) - mau nambah fitur
+ramah user ada mekanisme retire token dengan midleware jadi tidak perlu login lagi
+
+dapat membuat banyak mildleware dengan tugas yang beda dan dapet digunakan semua path
+
+
+COnfig bisa ditambahkan di server dna bisa NewAppServer
